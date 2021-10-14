@@ -10,7 +10,7 @@
 ## Data dictionary
 Target  | Description   | Data Type
 --|--|--
-label    | Indicative of whether or not a sequence will bind to the H4 histone | int64
+label    | Indicative of whether or not a sequence will be wound around the H4 histone | int64
 
 Features   | Description |    Data Type
 --|--|--
@@ -56,3 +56,8 @@ thymine |    Derrived from sequence, denotes the count of T bases    | int64
 - [x] Read this README
 - [] Clone/pull/fork the acquire.py, preprocessing.py, explore.py, model.py, and Histone-4-Classification.ipynb files.
 - [] Run the Histone-4-Classification.ipynb notebook
+
+## What is Histone-4 Occupancy?:
+- Histones are protein structures that DNA winds tightly around, these structures condense DNA into chromatin.
+- Histone-4 specifically is linked to long-term and short-term regulation of gene expression.
+- If a DNA sequence is wound around a histone, the sequence is less likely to be expressed.
