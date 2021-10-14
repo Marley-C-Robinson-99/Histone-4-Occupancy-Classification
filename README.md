@@ -29,7 +29,7 @@
 ## Data dictionary
 Target  | Description   | Data Type
 --|--|--
-label    | Indicative of whether or not a sequence will be wound around the H4 histone | int64
+label    | Indicative of whether or not a sequence will be wound around the H4 histone | int64, one-hot encoded
 
 Features   | Description |    Data Type
 --|--|--
