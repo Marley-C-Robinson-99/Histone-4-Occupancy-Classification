@@ -59,5 +59,6 @@ thymine |    Derrived from sequence, denotes the count of T bases    | int64
 
 ## Reproduce This Project:
 - [x] Read this README
-- [] Clone/pull/fork the acquire.py, preprocessing.py, explore.py, model.py, and Histone-4-Classification.ipynb files.
-- [] Run the Histone-4-Classification.ipynb notebook
+- [ ] Clone/pull/fork the acquire.py, preprocessing.py, explore.py, model.py, and Histone-4-Classification.ipynb files.
+- [ ] Check the imports of the Histone-4-Classification.ipynb notebook and ensure all necessary modules are installed on your machine.
+- [ ] Run the Histone-4-Classification.ipynb notebook.
