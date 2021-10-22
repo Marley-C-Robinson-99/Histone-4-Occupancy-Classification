@@ -54,7 +54,7 @@ thymine |    Derrived from sequence, denotes the count of T bases    | int64
 >     - My best model lost by roughly 4 points
 
 ## Future Iterations:
-> For any future iterations I would like to further develop my ANN models to try and minimize the prevalent overfitting issue present in my ANN models. I would like to try different vector lengths instead of 3 and 6 and would try to maximize model preformance with further tinkering with model hyperparameters. 
+> For any future iterations I would like to further develop my ANN models to try and minimize the prevalent overfitting issue present in my ANN models. I would like to try different vector lengths instead of 3 and 6 and would try to maximize model preformance with further tinkering with model hyperparameters. Additionally, I woould like to try and use more NLP techniques to create n-grams k-merized vector combinations of varying lengths.
 
 
 ## Reproduce This Project:
