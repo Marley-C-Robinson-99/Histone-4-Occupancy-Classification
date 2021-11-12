@@ -53,9 +53,13 @@ thymine |    Derrived from sequence, denotes the count of T bases    | int64
 > - I did beat baseline but did not beat the best model from www.jaist.ac
 >     - My best model lost by roughly 4 points
 
-## Future Iterations:
-> For any future iterations I would like to further develop my ANN models to try and minimize the prevalent overfitting issue present in my ANN models. I would like to try different vector lengths instead of 3 and 6 and would try to maximize model preformance with further tinkering with model hyperparameters. Additionally, I woould like to try and use more NLP techniques to create n-grams k-merized vector combinations of varying lengths.
-
+## Currently Iterating on:
+- [ ] Create updated README with more in depth explanation of the domain knowledge neccessary to understand the importance of the project and with a better, more readable format.
+- [ ] Fix error in modeling wherein I misused cross-validation and cross-validated on my test set
+- [ ] Utilize a grid search to optimize for hyperparameters
+- [ ] Add more content to the explore stage of the pipeline, potentially identifying most common or important hexamers and codons and creating a smaller dataframe wherein the least useful hexamers and codons are not present to reduce noise in the data
+- [ ] Test on test data with correctly utilized cross-validated classifier and potentially different dataframe garnered from exploration
+- [ ] Reduce overfitting of ANN models via utilization of a few neural network techniques such as adding a dropout layer
 
 ## Reproduce This Project:
 - [x] Read this README
